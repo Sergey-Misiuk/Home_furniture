@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <h2>{{content}}</h2>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+      consequuntur cupiditate iusto ipsa? Incidunt dolorem eligendi est,
+      quisquam debitis voluptatum nostrum temporibus sed natus similique
+      perferendis, iure dignissimos impedit id nobis nesciunt vel illum neque
+      velit a veritatis repellat ab voluptatem ducimus. Quae vel non architecto
+      eum cupiditate eos alias explicabo nostrum magni praesentium quaerat ullam
+      iure rem obcaecati incidunt distinctio, optio nam quas id temporibus
+      voluptatem dignissimos maiores vitae maxime? Omnis nihil vel, veniam vero
+      numquam asperiores molestiae illo excepturi modi suscipit quasi minima
+      sapiente. Repellendus exercitationem aliquid deleniti, delectus eaque
+      doloribus? Nisi molestiae voluptatibus minima voluptas! Ad, nam?
+    </p>
+    <P>{{ list.1 }}</P>
+    <P>{{ dict.second }}</P>
+
+    {% if is_authenticated %}
+        <p>{{list.0}}</p>
+        <p>{{list.0}}</p>
+    {% endif %}
+    
+  </body>
+</html>
