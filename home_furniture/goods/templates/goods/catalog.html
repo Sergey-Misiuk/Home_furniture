@@ -18,7 +18,7 @@
     </button>
 
     <form
-      action="{% url "catalog:index" slug_url %}"
+      action="{% if request.GET.q %}{% url "catalog:search" %}{% else %}{% url "catalog:index" slug_url %}"{% endif %}
       method="get"
       class="dropdown-menu bg-dark"
       data-bs-theme="dark"
@@ -34,7 +34,9 @@
           checked
           {% endif %}
         />
-        {% comment %} <input type="hidden" name="q" value="request.GET.q" /> {% endcomment %}
+        {% if request.GET.q %}
+          <input type="hidden" name="q" value="{{ request.GET.q }}" />
+        {% endif %}
         <label class="form-check-label" for="flexCheckDefault">
           Товары по акции
         </label>
