@@ -1,7 +1,7 @@
-{% extends "main/pattern.html" %}
+{% extends "pattern.html" %}
 {% load static %}
 
-{% block  css%}
+{% block css %}
     <link rel="stylesheet" href={% static "deps/css/my_footer_css.css" %}>
 {% endblock  %}
 
@@ -9,11 +9,11 @@
     <h1 class="mt-5 pt-5"><strong>{{content}}</strong></h1>
 {% endblock  %}
 
-{% block footer %}
-    <footer class="py-4 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Sergey_Misiuk 2024</p>
-        </div>
-    </footer>
-{% endblock  %}
 
+{% block footer %}
+<footer class="py-4 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Sergey_Misiuk 2024</p>
+    </div>
+</footer>
+{% endblock  %}
