@@ -1,0 +1,13 @@
+venv/Lib/site-packages/django/contrib/postgres/__pycache__/utils.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/__pycache__/validators.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/fields/__pycache__/__init__.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/fields/__pycache__/array.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/fields/__pycache__/citext.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/fields/__pycache__/hstore.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/fields/__pycache__/jsonb.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/fields/__pycache__/ranges.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/fields/__pycache__/utils.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/forms/__pycache__/__init__.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/forms/__pycache__/array.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/forms/__pycache__/hstore.cpython-311.pyc
+venv/Lib/site-packages/django/contrib/postgres/forms/__pycache__/ranges.cpython-311.pyc

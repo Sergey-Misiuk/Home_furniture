@@ -1,12 +1,17 @@
 venv/
-venv\
-.pylintrc
+.venv
+
 __pycache__/
-__pycache__\
+*.py[cod]
+*$py.class
 
 
+lib/
+
+.pylintrc
 .vscode
 .idea
 
 db.sqlite3
+postgres
 media/
